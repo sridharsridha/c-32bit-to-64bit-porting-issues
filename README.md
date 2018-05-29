@@ -97,10 +97,27 @@ The datatype of hexadecimal constants may changes between ILP32 and LP64,
 ### Endianess:
 * little endian - ll (l - least significant bytes, l - lowest memory address)
 * bit endian    - ml (m - most significant bytes, l - lowest memory address) (network order)
-**Endianism is important when**
+#### Endianism is important when
 * Bit masks are used
 * Indirect pointers address portions of an object
 ## Performance Considerations:
 * long division is more time-consuming than 32-bit integer division
 * 64-bit programs that use 32-bit signed integers as array indexes
   require additional instructions to perform sign extension each time
+
+## How to use the code
+* Checkout the git repro using below command
+```
+    git clone https://github.com/sridharsridha/c-32bit-to-64bit-porting-issues.git ~/c-32bit-to-64bit-porting-issues
+```
+* To run compile the files one by one using
+```
+   gcc -m32 filename.c -o filename32
+   gcc -m64 filename.c -o filename64
+```
+
+## TODO
+- [] create a makefile to build all the files
+- [] seperate the problems into sperate files of thier own
+- [] add more debugging (data representation, intermediate state of variables etc to problem files)
+- [] Update the problem file with explanation and answers
