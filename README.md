@@ -1,7 +1,4 @@
-# c-32bit-to-64bit-porting-issues
-
-## Description
-32-bit->64-bit Porting Guide Document:
+# C application 32-bit->64-bit architecture Porting Guide
 
 ## 64-bit Applications:
 64-bit programs use aproximately 30% to 40% more memory then their 32-bit counterparts
