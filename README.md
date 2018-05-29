@@ -73,7 +73,7 @@ In LP64, truncation can occur during, initialization, assignments, parameter pas
 The datatype of hexadecimal constants may changes between ILP32 and LP64,
 
 | Constants   | ILP32         | LP64         |
-|-------------+---------------+--------------|
+|-------------|---------------|--------------|
 | 0x7fffffff  | int           | int          |
 | 0x7fffffffL | long          | long         |
 | 0x80000000  | unsigned int  | unsigned int |
