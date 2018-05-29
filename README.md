@@ -117,7 +117,7 @@ The datatype of hexadecimal constants may changes between ILP32 and LP64,
 ```
 
 ## TODO
-- [] create a makefile to build all the files
-- [] seperate the problems into sperate files of thier own
-- [] add more debugging (data representation, intermediate state of variables etc to problem files)
-- [] Update the problem file with explanation and answers
+- [ ] create a makefile to build all the files
+- [ ] seperate the problems into sperate files of thier own
+- [ ] add more debugging (data representation, intermediate state of variables etc to problem files)
+- [ ] Update the problem file with explanation and answers
